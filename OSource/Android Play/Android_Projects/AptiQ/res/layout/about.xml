@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about"
+        android:textSize="20sp"
+        android:text="RATS Solutions is a place where constant Innovation and Hard Work drives us.We are a bunch of College Students on a mission to fix Problems in Society with our Technical and Social Power."
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

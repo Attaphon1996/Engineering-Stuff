@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2dp"
+     >
+
+    
+        
+        
+
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rohan Mundhey : mundheyrohan@gmail.com"
+        tools:ignore="HardcodedText" />
+    
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aditya Bhorapi : adityab615@gmail.com"
+        tools:ignore="HardcodedText" />
+    
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tejas Sagane : tejassagane24@gmail.com"
+        tools:ignore="HardcodedText" />
+    
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sampada Joshi : sampada1206@gmail.com"
+        tools:ignore="HardcodedText" />
+    
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saurabh Tambe : saurabh_tambe29@yahoo.in"
+        tools:ignore="HardcodedText" />
+    
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Himanshu Bhide : himanshub13@gmail.com"
+        tools:ignore="HardcodedText" />
+    
+    <TextView
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ankita Khadatkar : ankitakhadatkar12208@gmail.com"
+        tools:ignore="HardcodedText" />
+    
+     
+
+</LinearLayout>

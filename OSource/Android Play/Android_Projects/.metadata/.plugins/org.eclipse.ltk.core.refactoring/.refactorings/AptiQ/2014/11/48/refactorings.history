@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extracts string &apos;Easy&apos; into R.string.easy" description="Extracts string &apos;Easy&apos; into R.string.easy" file="/AptiQ/res/layout/activity_starting_point.xml" flags="6" id="com.android.ide.eclipse.adt.refactoring.extract.string" mode="EDIT_SOURCE" proj="/AptiQ" rplc-all-java="false" rplc-all-xml="false" sel-end="753" sel-start="735" stamp="1417157697819" tok-esc="Easy" xml-attr-name="android:text"/>
+</session>
