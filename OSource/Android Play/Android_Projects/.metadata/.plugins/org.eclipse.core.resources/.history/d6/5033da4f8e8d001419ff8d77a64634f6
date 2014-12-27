@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mundheyrohan.bruno.MainActivity"
+    android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100">
+    <EditText
+        android:id="@+id/etURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_weight="20"
+         android:inputType="textUri">
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/bGo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go"
+        android:layout_weight="80"
+         />
+    
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="80" 
+    >
+
+    <Button
+        android:id="@+id/bBack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:padding="10sp"
+        android:text="@string/back"
+        android:textAllCaps="false"
+        tools:ignore="UnusedAttribute" />
+
+    <Button
+        android:id="@+id/bForward"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:text="@string/forward"
+        android:textAllCaps="false"
+        tools:ignore="UnusedAttribute" />
+
+    <Button
+        android:id="@+id/bRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:text="@string/refresh"
+        android:textAllCaps="false"
+        tools:ignore="UnusedAttribute" />
+
+    <Button
+        android:id="@+id/bHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="20"
+        android:text="@string/clear_history"
+        android:textAllCaps="false"
+        tools:ignore="UnusedAttribute" />
+    
+</LinearLayout>
+
+<WebView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/wvBrowser"></WebView>
+
+
+
+</LinearLayout>

@@ -7,6 +7,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.Window;
+import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.webkit.WebView;
 import android.widget.Button;
@@ -21,6 +23,8 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
         
         brow=(WebView) findViewById(R.id.wvBrowser);
@@ -40,12 +44,12 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
         Button back = (Button) findViewById(R.id.bBack);
         Button forward = (Button) findViewById(R.id.bForward);
         Button refresh = (Button) findViewById(R.id.bRefresh);
-        Button history = (Button) findViewById(R.id.bHistory);
+        
         go.setOnClickListener(this);
         back.setOnClickListener(this);
         forward.setOnClickListener(this);
         refresh.setOnClickListener(this);
-        history.setOnClickListener(this);
+        
         
     }
 
@@ -95,9 +99,7 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 		case R.id.bRefresh:
 			brow.reload();
 			break;
-		case R.id.bHistory:
-			brow.clearHistory();
-			break;
+		
 		
 		}
 	}
