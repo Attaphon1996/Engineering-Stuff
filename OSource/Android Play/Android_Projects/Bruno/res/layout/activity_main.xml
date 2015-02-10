@@ -24,49 +24,41 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/go"
-        android:layout_weight="80"
+        android:layout_weight="80 "
          />
     
     </LinearLayout>
 
 <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="100dp"
     android:orientation="horizontal"
-     android:weightSum="60"
+    android:weightSum="60"
     >
 
-    <Button
+    <ImageButton
         android:id="@+id/bBack"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="20"
-        
-        android:text="@string/back"
-        android:textAllCaps="false"
-        tools:ignore="UnusedAttribute" />
+        android:background="@drawable/back"
+        tools:ignore="UnusedAttribute,ContentDescription" />
 
-    <Button
+    <ImageButton
         android:id="@+id/bForward"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="20"
-        
-        android:text="@string/forward"
-        android:textAllCaps="false"
-        tools:ignore="UnusedAttribute" />
+        android:background="@drawable/forward"
+        tools:ignore="UnusedAttribute,ContentDescription" />
 
-    <Button
+    <ImageButton
         android:id="@+id/bRefresh"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="20"
-        
-        android:text="@string/refresh"
-        android:textAllCaps="false"
-        tools:ignore="UnusedAttribute" />
-
-    
+        android:background="@drawable/refresh"
+        tools:ignore="UnusedAttribute,ContentDescription" />
     
 </LinearLayout>
 

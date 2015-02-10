@@ -1,0 +1,24 @@
+package com.mundheyrohan.yash15;
+
+import android.app.Activity;
+import android.net.wifi.p2p.WifiP2pManager.ActionListener;
+import android.os.Bundle;
+import android.widget.Button;
+
+public class Day1 extends Activity implements OnClickListener{
+
+	Button cultural,technical,sports;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.day1);
+		
+		cultural=(Button)findViewById(R.id.day1_cultural);
+		technical=(Button)findViewById(R.id.day1_technical);
+		sports=(Button)findViewById(R.id.day1_sports);
+		
+	}
+	
+	
+}

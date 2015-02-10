@@ -333,7 +333,10 @@ int drawable abc_textfield_default_mtrl_alpha 0x7f02002f
 int drawable abc_textfield_search_activated_mtrl_alpha 0x7f020030
 int drawable abc_textfield_search_default_mtrl_alpha 0x7f020031
 int drawable abc_textfield_search_material 0x7f020032
-int drawable ic_launcher 0x7f020033
+int drawable back 0x7f020033
+int drawable forward 0x7f020034
+int drawable ic_launcher 0x7f020035
+int drawable refresh 0x7f020036
 int id action_bar 0x7f090032
 int id action_bar_activity_content 0x7f090003
 int id action_bar_container 0x7f090031
@@ -347,13 +350,12 @@ int id action_menu_presenter 0x7f090006
 int id action_mode_bar 0x7f09002f
 int id action_mode_bar_stub 0x7f09002e
 int id action_mode_close_button 0x7f090020
-int id action_settings 0x7f090047
+int id action_settings 0x7f090046
 int id activity_chooser_view_content 0x7f090021
 int id always 0x7f090014
 int id bBack 0x7f090042
 int id bForward 0x7f090043
 int id bGo 0x7f090041
-int id bHistory 0x7f090045
 int id bRefresh 0x7f090044
 int id beginning 0x7f09001b
 int id checkbox 0x7f09002a
@@ -405,7 +407,7 @@ int id up 0x7f090001
 int id useLogo 0x7f090013
 int id withText 0x7f090018
 int id wrap_content 0x7f090009
-int id wvBrowser 0x7f090046
+int id wvBrowser 0x7f090045
 int integer abc_max_action_buttons 0x7f080000
 int layout abc_action_bar_title_item 0x7f030000
 int layout abc_action_bar_up_container 0x7f030001
@@ -451,11 +453,7 @@ int string abc_shareactionprovider_share_with_application 0x7f0a000e
 int string abc_toolbar_collapse_description 0x7f0a0004
 int string action_settings 0x7f0a0011
 int string app_name 0x7f0a0010
-int string back 0x7f0a0013
-int string clear_history 0x7f0a0015
-int string forward 0x7f0a0014
 int string go 0x7f0a0012
-int string refresh 0x7f0a0016
 int style AppBaseTheme 0x7f0b00eb
 int style AppTheme 0x7f0b00ec
 int style Base_TextAppearance_AppCompat 0x7f0b0098

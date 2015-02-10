@@ -1,0 +1,20 @@
+package com.mundheyrohan.yash15;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class Day4_Cultural extends Activity{
+Button freshers,warofdj;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.day4_cultural);
+		
+		freshers=(Button)findViewById(R.id.freshers);
+		warofdj=(Button)findViewById(R.id.warofdj);
+		
+		
+	}
+
+}

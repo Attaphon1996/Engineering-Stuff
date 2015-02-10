@@ -1,0 +1,20 @@
+package com.mundheyrohan.yash15;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class Day1_Technical extends Activity{
+Button internet_quest,layout_planning;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.day1_technical);
+		
+		internet_quest=(Button)findViewById(R.id.internet_quest);
+		layout_planning=(Button)findViewById(R.id.layout_planning);
+		
+		
+	}
+
+}

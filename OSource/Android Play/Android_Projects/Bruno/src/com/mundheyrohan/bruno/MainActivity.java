@@ -13,6 +13,7 @@ import android.view.inputmethod.InputMethodManager;
 import android.webkit.WebView;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 
 
 public class MainActivity extends ActionBarActivity implements OnClickListener {
@@ -41,10 +42,9 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
         }
         url =(EditText) findViewById(R.id.etURL);
         Button go = (Button) findViewById(R.id.bGo);
-        Button back = (Button) findViewById(R.id.bBack);
-        Button forward = (Button) findViewById(R.id.bForward);
-        Button refresh = (Button) findViewById(R.id.bRefresh);
-        
+        ImageButton back = (ImageButton) findViewById(R.id.bBack);
+        ImageButton forward = (ImageButton) findViewById(R.id.bForward);
+        ImageButton refresh = (ImageButton) findViewById(R.id.bRefresh);
         go.setOnClickListener(this);
         back.setOnClickListener(this);
         forward.setOnClickListener(this);

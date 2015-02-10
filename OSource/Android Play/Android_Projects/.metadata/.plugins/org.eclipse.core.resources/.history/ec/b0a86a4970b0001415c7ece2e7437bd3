@@ -1,0 +1,38 @@
+package com.mundheyrohan.yash15;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class Day2_Sports extends Activity implements OnClickListener{
+Button futsal,armwrestling;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.day2_sports);
+		
+		futsal=(Button)findViewById(R.id.futsal);
+		armwrestling=(Button)findViewById(R.id.armwrestling);
+		
+	}
+	@Override
+	public void onClick(View v) {
+		// TODO Auto-generated method stub
+		switch(v.getId())
+		{
+		case R.id.futsal:
+			
+			break;
+			
+		case R.id.armwrestling:
+			
+			break;
+		
+		
+		}
+	}
+
+}

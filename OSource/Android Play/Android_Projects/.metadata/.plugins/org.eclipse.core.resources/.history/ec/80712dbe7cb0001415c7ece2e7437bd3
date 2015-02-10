@@ -1,0 +1,22 @@
+package com.mundheyrohan.yash15;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+
+public class Day3_Cultural extends Activity{
+Button bulyme,symphonica,ragarocker,rodies;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.day3_cultural);
+		bulyme=(Button)findViewById(R.id.bulyme);
+		symphonica=(Button)findViewById(R.id.symphonica);
+		
+		
+	}
+	
+	
+
+}

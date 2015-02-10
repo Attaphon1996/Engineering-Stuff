@@ -1,0 +1,23 @@
+package com.mundheyrohan.yash15;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.Button;
+
+public class Day2_Cultural extends Activity {
+Button dramatica,razzmantaz,quizcontest;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.day2_cultural);
+		
+		dramatica=(Button)findViewById(R.id.dramatica);
+		razzmantaz=(Button)findViewById(R.id.razzmantaz);
+		quizcontest=(Button)findViewById(R.id.quizcontest);
+		
+	}
+
+	
+	
+}

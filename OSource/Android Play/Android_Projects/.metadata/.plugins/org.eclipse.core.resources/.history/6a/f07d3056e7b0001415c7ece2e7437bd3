@@ -1,0 +1,22 @@
+package com.mundheyrohan.yash15;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+
+public class Day5_Technical extends Activity implements OnClickListener{
+Button trussted,counterstrike,nfs,contraption;
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		// TODO Auto-generated method stub
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.day5_technical);
+		trussted=(Button)findViewById(R.id.trussted);
+		counterstrike=(Button)findViewById(R.id.counterstrike);
+		nfs=(Button)findViewById(R.id.nfs);
+		contraption=(Button)findViewById(R.id.contraption);
+		
+	}
+
+}

@@ -1,7 +1,0 @@
-package com.mundheyrohan.bruno;
-
-import android.webkit.WebViewClient;
-
-public class ourViewClient extends WebViewClient {
-
-}

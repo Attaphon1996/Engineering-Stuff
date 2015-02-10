@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YASH 15.0</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="day0">Day 0 <BR>15th Feb</BR>15th Feb</string>
+    <string name="day1">16th Feb</string>
+    <string name="day2">17th Feb</string>
+    <string name="day3">18th Feb</string>
+    <string name="day4">19th Feb</string>
+    <string name="day5">20th Feb</string>
+    <string name="day6">21st Feb</string>
+    <string name="technical">Technical</string>
+    <string name="cultural">Cultural</string>
+    <string name="sports">Sports</string>
+   
+
+</resources>
