@@ -4,7 +4,7 @@
     <string name="app_name">YASH 15.0</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="day0">15TH Feb</string>
+    <string name="day0">15th Feb</string>
     <string name="day1">16th Feb</string>
     <string name="day2">17th Feb</string>
     <string name="day3">18th Feb</string>
@@ -24,6 +24,10 @@
     <string name="designer">Designer</string>
     <string name="codeveloper">Co-Developer</string>
     <string name="dramatica">DRAMATICA</string>
+    
+    <string name="day7">22nd Feb</string>
+    <string name="contentwriter">Content Writer</string>
+    <string name="sponsors">Sponsors</string>
    
 
 </resources>

@@ -20,13 +20,6 @@
         tools:ignore="HardcodedText"
         android:layout_marginTop="60dp" />
 
-    <Button
-        android:id="@+id/armwrestling"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="ARM WRESTLING"
-        tools:ignore="HardcodedText"
-        android:layout_marginTop="50dp" />
+
 
 </LinearLayout>

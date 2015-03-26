@@ -15,4 +15,9 @@
         android:id="@+id/codeveloper"
      ></item>
     
+    <item
+        android:title="@string/contentwriter"
+        android:id="@+id/content"></item>
+    
+    
 </menu>

@@ -8,21 +8,27 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class Day3_Cultural extends Activity implements OnClickListener{
-Button bulyme,symphonica,ragarocker,rodies;
+Button symphonica,ragarocker,rodies,beatstreet,autocad,debate;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.day3_cultural);
-		bulyme=(Button)findViewById(R.id.bulyme);
+		
 		symphonica=(Button)findViewById(R.id.symphonica);
 		ragarocker=(Button)findViewById(R.id.ragarocker);
 		rodies=(Button)findViewById(R.id.rodies);
+		beatstreet=(Button)findViewById(R.id.beatstreet);
+		autocad=(Button)findViewById(R.id.autocad);
+		debate=(Button)findViewById(R.id.debate);
 		
-		bulyme.setOnClickListener(this);
+		
 		symphonica.setOnClickListener(this);
 		ragarocker.setOnClickListener(this);
 		rodies.setOnClickListener(this);
+		beatstreet.setOnClickListener(this);
+		autocad.setOnClickListener(this);
+		debate.setOnClickListener(this);
 		
 		
 	}
@@ -32,11 +38,7 @@ Button bulyme,symphonica,ragarocker,rodies;
 		
 		switch(v.getId())
 		{
-		case R.id.bulyme:
-			Intent bullyme=new Intent("com.mundheyrohan.yash15.Bulyme");
-			startActivity(bullyme);
-			
-			break;
+		
 			
 		case R.id.symphonica:
 			Intent symphonica=new Intent("com.mundheyrohan.yash15.Symphonica");
@@ -55,6 +57,26 @@ Button bulyme,symphonica,ragarocker,rodies;
 			startActivity(rodies);
 			
 			break;
+			
+			
+		case R.id.beatstreet:
+			Intent beatstreet=new Intent("com.mundheyrohan.yash15.Beatstreet");
+			startActivity(beatstreet);
+			
+			break;
+			
+		case R.id.autocad:
+			Intent autocad=new Intent("com.mundheyrohan.yash15.Autocad");
+			startActivity(autocad);
+			
+			break;
+			
+		case R.id.debate:
+			Intent debate=new Intent("com.mundheyrohan.yash15.Debate");
+			startActivity(debate);
+			
+			break;
+			
 		
 		}
 		

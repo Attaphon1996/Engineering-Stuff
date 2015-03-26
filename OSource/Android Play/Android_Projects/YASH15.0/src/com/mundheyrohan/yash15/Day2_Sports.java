@@ -8,7 +8,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class Day2_Sports extends Activity implements OnClickListener{
-Button futsal,armwrestling;
+Button futsal;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -16,10 +16,10 @@ Button futsal,armwrestling;
 		setContentView(R.layout.day2_sports);
 		
 		futsal=(Button)findViewById(R.id.futsal);
-		armwrestling=(Button)findViewById(R.id.armwrestling);
+		
 		
 		futsal.setOnClickListener(this);
-		armwrestling.setOnClickListener(this);
+		
 		
 	}
 	@Override
@@ -33,10 +33,7 @@ Button futsal,armwrestling;
 			
 			break;
 			
-		case R.id.armwrestling:
-			Intent arm=new Intent("com.mundheyrohan.yash15.Armwrestling");
-			startActivity(arm);
-			break;
+
 		
 		
 		}

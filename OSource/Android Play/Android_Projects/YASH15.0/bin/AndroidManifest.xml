@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mundheyrohan.yash15"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionCode="3"
+    android:versionName="3.0" >
 
     <uses-sdk
         android:minSdkVersion="8"
@@ -108,6 +108,20 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        
+        
+        <activity
+            android:name=".Day7"
+         >
+            <intent-filter>
+                <action android:name="com.mundheyrohan.yash15.Day7" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+      
+       
+        
         
         
          <activity
@@ -382,15 +396,20 @@
         </activity>
         
        
-       <activity
-            android:name=".Quizcontest"
+        <activity
+            android:name=".Clickoflix"
          >
             <intent-filter>
-                <action android:name="com.mundheyrohan.yash15.Quizcontest" />
+                <action android:name="com.mundheyrohan.yash15.Clickoflix" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+       
+       
+       
+       
+       
       
        
         <activity
@@ -434,28 +453,7 @@
         </activity>
         
         
-        <activity
-            android:name=".Armwrestling"
-         >
-            <intent-filter>
-                <action android:name="com.mundheyrohan.yash15.Armwrestling"/>
 
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        
-        
-
-        <activity
-            android:name=".Bulyme"
-         >
-            <intent-filter>
-                <action android:name="com.mundheyrohan.yash15.Bulyme" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>        
-        
         <activity
             android:name=".Symphonica"
          >
@@ -464,7 +462,45 @@
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-        </activity>        
+        </activity>
+        
+        
+        <activity
+            android:name=".Cricket"
+         >
+            <intent-filter>
+                <action android:name="com.mundheyrohan.yash15.Cricket" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Autocad"
+         >
+            <intent-filter>
+                <action android:name="com.mundheyrohan.yash15.Autocad" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name=".Debate"
+         >
+            <intent-filter>
+                <action android:name="com.mundheyrohan.yash15.Debate" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        
+        
+        
         
       <activity
             android:name=".Ragarockers"
@@ -658,6 +694,16 @@
         </activity> 
         
                
+               
+               
+               
+               
+               
+               
+               
+               
+        
+               
                 <activity
             android:name=".Contraption"
          >
@@ -777,6 +823,23 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        
+              <activity
+            android:name=".Contentwriter"
+            android:theme="@android:style/Theme.Dialog"
+            
+         >
+            <intent-filter>
+                <action android:name="com.mundheyrohan.yash15.Contentwriter" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+             
+             
+             
+             
+             
     </application>
 
 </manifest>

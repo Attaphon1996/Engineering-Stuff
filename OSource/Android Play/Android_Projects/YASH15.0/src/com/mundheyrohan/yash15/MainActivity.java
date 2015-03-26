@@ -12,7 +12,7 @@ import android.widget.Button;
 
 public class MainActivity extends ActionBarActivity implements OnClickListener {
 
-	Button day0,day1,day2,day3,day4,day5,day6;
+	Button day0,day1,day2,day3,day4,day5,day6,day7;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +26,9 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 		 day4=(Button)findViewById(R.id.day4);
 		 day5=(Button)findViewById(R.id.day5);
 		 day6=(Button)findViewById(R.id.day6);
+		 day7=(Button)findViewById(R.id.day7);
+		
+		
 		
 		 day0.setOnClickListener(this);
 		 day1.setOnClickListener(this);
@@ -34,6 +37,9 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 		 day4.setOnClickListener(this);
 		 day5.setOnClickListener(this);
 		 day6.setOnClickListener(this);
+		 day7.setOnClickListener(this);
+		 
+		
 		
 	}
 
@@ -79,6 +85,12 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 			startActivity(codeveloper);
 			
 			break;
+			
+		case R.id.content:
+			Intent content=new Intent("com.mundheyrohan.yash15.Contentwriter");
+			startActivity(content);
+			
+			break;
 		
 		
 		}
@@ -93,6 +105,8 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 		
 		switch(v.getId())
 		{
+		
+		
 		
 		case R.id.day0:
 			Intent Day0=new Intent("com.mundheyrohan.yash15.Day0");
@@ -134,6 +148,12 @@ public class MainActivity extends ActionBarActivity implements OnClickListener {
 			Intent Day6=new Intent("com.mundheyrohan.yash15.Day6");
 			startActivity(Day6);
 			
+			
+			break;
+			
+		case R.id.day7:
+			Intent day7=new Intent("com.mundheyrohan.yash15.Day7");
+			startActivity(day7);
 			
 			break;
 		

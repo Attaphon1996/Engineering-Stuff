@@ -8,7 +8,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class Day2_Cultural extends Activity implements OnClickListener{
-Button dramatica,razzmantaz,quizcontest;
+Button dramatica,razzmantaz,clickoflix;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -17,11 +17,12 @@ Button dramatica,razzmantaz,quizcontest;
 		
 		dramatica=(Button)findViewById(R.id.dramatica);
 		razzmantaz=(Button)findViewById(R.id.razzmantaz);
-		quizcontest=(Button)findViewById(R.id.quizcontest);
+		clickoflix=(Button)findViewById(R.id.clickoflix);
 		
 		dramatica.setOnClickListener(this);
 		razzmantaz.setOnClickListener(this);
-		quizcontest.setOnClickListener(this);
+		clickoflix.setOnClickListener(this);
+		
 		
 		
 		
@@ -41,12 +42,10 @@ Button dramatica,razzmantaz,quizcontest;
 			startActivity(razz);
 			
 			break;
-			
-		case R.id.quizcontest:
-			Intent quiz=new Intent("com.mundheyrohan.yash15.Quizcontest");
-			startActivity(quiz);
-			
-			break;
+		case R.id.clickoflix:
+			Intent clickoflix=new Intent("com.mundheyrohan.yash15.Clickoflix");
+			startActivity(clickoflix);
+		
 		
 		}
 	}

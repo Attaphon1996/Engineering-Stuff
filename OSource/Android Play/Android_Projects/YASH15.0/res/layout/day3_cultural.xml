@@ -15,23 +15,16 @@
         android:layout_height="wrap_content"
         android:text="SYMPHONICA"
         android:layout_gravity="center"
-        android:layout_marginTop="60dp" />
+        android:layout_marginTop="20dp" />
 
-    <Button
-        android:id="@+id/bulyme"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="BULY ME"
-        android:layout_gravity="center"
-        android:layout_marginTop="50dp" />
-
+    
     <Button
         android:id="@+id/ragarocker"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="RAGA ROCKERS"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="25dp" />
 
     <Button
         android:id="@+id/rodies"
@@ -39,6 +32,31 @@
         android:layout_height="wrap_content"
         android:text="RODIES"
         android:layout_gravity="center"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="25dp" />
+    
+    <Button
+        android:id="@+id/beatstreet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BEATSTREET"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp" />
 
+    <Button
+        android:id="@+id/autocad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AUTOCAD"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp" />
+    
+    <Button
+        android:id="@+id/debate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEBATE"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp" />
+    
+    
 </LinearLayout>

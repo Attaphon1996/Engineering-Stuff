@@ -9,7 +9,7 @@
         android:id="@+id/designer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text=" Wasuraj R Kannao \n kannaowasuraj@gmail.com \n Electronics and Telecommunication \n\n Yash V Kannao \n kannaoyash@gmail.com \n Civil Department"
+        android:text=" Wasuraj R Kannao \n Electronics and Telecommunication \n\n Yash V Kannao \n Civil Department \n\n Vinod Kumar Mullangi \n Electronics and Telecommunication \n\n Swapnil Bobate \n Electronics and Telecommunication "
         tools:ignore="HardcodedText" />
 
 </LinearLayout>

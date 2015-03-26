@@ -8,7 +8,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 public class Day3_Sports extends Activity implements OnClickListener{
-Button boxcricket,badminton;
+Button boxcricket,badminton,cricket;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -17,9 +17,11 @@ Button boxcricket,badminton;
 		
 		boxcricket=(Button)findViewById(R.id.boxcricket);
 		badminton=(Button)findViewById(R.id.badminton);
+		cricket=(Button)findViewById(R.id.cricket);
 		
 		boxcricket.setOnClickListener(this);
 		badminton.setOnClickListener(this);
+		cricket.setOnClickListener(this);
 	}
 
 	@Override
@@ -40,6 +42,11 @@ Button boxcricket,badminton;
 			
 			
 			break;
+			
+		case R.id.cricket:
+			
+			Intent cricket=new Intent("com.mundheyrohan.yash15.Cricket");
+			startActivity(cricket);
 		
 		}
 		
