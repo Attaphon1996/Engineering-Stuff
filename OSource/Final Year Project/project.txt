@@ -1,0 +1,38 @@
+Arduino Token
+
+3912848054-QUbeAblW5LWSrmJluIemkAi1SXVp2qokrpmia9w
+
+
+
+Twilo phone no
+
++14159926496
+
+
+Client id
+
+118139363180-lr66i5ht85buidlcqqt8is0mhhipgd4q.apps.googleusercontent.com
+
+client secret
+Qpw9Pk23OlL4LC3Mp51pDcll
+
+
+Authorization URL
+
+https://accounts.google.com/o/oauth2/auth?client_id=118139363180-lr66i5ht85buidlcqqt8is0mhhipgd4q.apps.googleusercontent.com&response_type=code&redirect_uri=https://mundhey.temboolive.com/callback/google&approval_prompt=force&access_type=offline&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fbigquery&state=668c5416-b7cf-4961-8cd0-f1982352d098
+
+
+Callback id
+
+mundhey/668c5416-b7cf-4961-8cd0-f1982352d098
+
+
+Accesse Token
+ya29.GgKZP8szFAe2FZFaLY86854ZRz86eO0p0PQPGIhGb8OrKW0NnJ2AcqwHZNbn6xZxUALM
+
+
+Refresh Token
+1/cLWtNQUy8IUwYd_liDg9zk04rP-DchfXZEU8k
+
+
+
